@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavika's Page</title>
+    <style>
+        body {
+            background-color: #ffb6c1;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin-top: 50px;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .rose-container {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin: 50px auto;
+        }
+
+        .rose {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Bhavika - A Beautiful Soul 🌸</h1>
+    <p>Her smile is as radiant as the morning sun, and her kindness blooms like a rose in spring.</p>
+    <div class="rose-container">
+        <img class="rose" src="pink.png" alt="Pink Rose">
+    </div>
+</body>
+</html>
